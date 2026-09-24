@@ -113,7 +113,7 @@ canvas:hover {
     font-weight: 500;
     line-height: 20px;
     color: #ffffff;
-    background-color: #4e5058;
+    background-color: #5865f2;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -125,11 +125,11 @@ canvas:hover {
 }
 
 .button:hover {
-    background-color: #6d6f78;
+    background-color: #4752c4;
 }
 
 .button:active {
-    background-color: #3c3e44;
+    background-color: #3c45a5;
 }
 
 .button:disabled {
