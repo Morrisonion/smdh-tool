@@ -1,8 +1,3 @@
-/*
-SMDH Creator v1.1 by Marc Robledo 2015
-based on SMDH Creator by GEMISIS https://github.com/gemisis/SMDH-Creator
-more info about SMDH format: http://3dbrew.org/wiki/SMDH
-*/
 function el(e){return document.getElementById(e)}
 function show(e){el(e).style.display='block'}
 function hide(e){el(e).style.display='none'}
