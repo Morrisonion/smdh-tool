@@ -112,24 +112,26 @@ canvas:hover {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    color: #ffffff;
-    background-color: #5865f2;
-    border: none;
+    color: #dbdee1;
+    background-color: #313338;
+    border: 1px solid #1e1f22;
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     font-family: inherit;
     white-space: nowrap;
 }
 
 .button:hover {
-    background-color: #4752c4;
+    background-color: #3a3c42;
+    border-color: #5865f2;
 }
 
 .button:active {
-    background-color: #3c45a5;
+    background-color: #2b2d31;
+    border-color: #4752c4;
 }
 
 .button:disabled {
@@ -138,16 +140,19 @@ canvas:hover {
 }
 
 .blue-button {
-    color: #ffffff;
-    background-color: #5865f2;
+    color: #dbdee1;
+    background-color: #313338;
+    border: 1px solid #1e1f22;
 }
 
 .blue-button:hover {
-    background-color: #4752c4;
+    background-color: #3a3c42;
+    border-color: #5865f2;
 }
 
 .blue-button:active {
-    background-color: #3c45a5;
+    background-color: #2b2d31;
+    border-color: #4752c4;
 }
 
 .row-icons {
